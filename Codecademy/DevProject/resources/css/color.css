@@ -1,0 +1,300 @@
+* {
+    Box-sizing: border-box;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Baloo Tammudu 2';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Baloo Tammudu 2 SemiBold'), local('BalooTammudu2-SemiBold'), url(https://fonts.gstatic.com/s/balootammudu2/v1/1Ptzg8TIS_SAmkLguUdFP8UaJcKGHV8C5oCKNLY3JQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* latin */
+@font-face {
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+      background-color: #060b24;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #77d9f1;
+}
+
+p, th, td {
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    background-color: #060b24;
+    position: fixed;
+    font-family: 'Open Sans Bold', 'Times New Roman', Times, serif;
+    z-index: 691;
+}
+
+.navcontent {
+    width: 1280px;
+    height: 65px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navwrap {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.navitem {
+    width: 180px;
+    cursor: pointer;
+    height: 65px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navitem span {
+    border-left: 2px solid #77d9f1;
+    padding-left: 8px;
+}
+
+/* End of Navbar */
+
+/* Color Functions */
+
+#color-guide {
+    padding: 20px;
+}
+
+.value1 {
+    color:  #fff;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+.value2 {
+    color:  #fff;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.value3 {
+    color:  #fff;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.value4 {
+    color:  #fff;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.description {
+    color:  #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* End Color Functions */
+
+.honkai img {
+    width: 100%;
+    max-width: 100%;
+    min-width: 1240px;
+    overflow: scroll;
+    height: 870px;
+}
+
+/* Table */
+
+#tbldiv {
+    background-image: url(../images/color_class.png);
+    background-size: cover;
+    max-width: 100%;
+    min-width: 1240px;
+    max-height: 100%;
+    min-height: 80%;
+    width: 100%;
+    height: 850px;
+    overflow: scroll;
+}
+
+#tbldiv p {
+    font-family: 'Baloo Tammudu 2', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #000;
+    padding: 20px 0px 0px 30px;
+}
+
+.tblbody {
+    width: 100%;
+    clear: both;
+}
+
+.colors {
+    width: 100%;
+    color:#000;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    padding: 50px;
+    float: left;
+}
+
+.colors th, td {
+    padding: 20px;
+}
+
+.cwhite {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.csilver {
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cgray {
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cblack {
+    background-color: #000000;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cred {
+    background-color: #FF0000;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cmaroon {
+    background-color: #800000;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cyellow {
+    background-color: #FFFF00;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.colive {
+    background-color: #808000;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.clime {
+    background-color: #00FF00;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cgreen {
+    background-color: #008000;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.caqua {
+    background-color: #00FFFF;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cteal {
+    background-color: #008080;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cblue {
+    background-color: #0000FF;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cnavy {
+    background-color: #000080;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cfuchsia {
+    background-color: #FF00FF;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.cpurple {
+    background-color: #800080;
+    border-radius: 10px;
+    height: 35px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+/* End of Table */
