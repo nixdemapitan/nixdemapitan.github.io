@@ -131,7 +131,7 @@ p, th, td {
 /* Table */
 
 #tbldiv {
-    background-image: url(../images/color_class.png);
+    background-image: url(/resources/images/color_class.png);
     background-size: cover;
     max-width: 100%;
     min-width: 1240px;
